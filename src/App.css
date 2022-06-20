@@ -2,17 +2,18 @@
   text-align: center;
   width: 100vw;
   height: 100vh;
+  background-color: darkgreen;
 }
 
 .Pictures {
-  margin: 10px;
+  margin: 0px;
 }
 img {
-  margin: 5px;
+  margin: 0px;
 }
 
 .Board {
   width: 300px;
   height: 500px;
-  border: 2px solid black;
+  border: 2px solid rgb(255, 255, 255);
 }
