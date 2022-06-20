@@ -7,7 +7,7 @@ const PictureList = [
   {
     id: 1,
     url:
-      "https://yt3.ggpht.com/ytc/AAUvwnjOQiXUsXYMs8lwrd4litEEqXry1-atqJavJJ09=s900-c-k-c0x00ffffff-no-rj",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA5oaUIcAAEZGjYh8mjGlYl5eDY0NH0WJhww&usqp=CAU",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const PictureList = [
   {
     id: 3,
     url:
-      "https://yt3.ggpht.com/pe57RF1GZibOWeZ9GwRWbjnLDCK2EEAeQ3u4iMAFNeaz-PN9uSsg1p2p32TZUedNnrUhKfoOuMM=s900-c-k-c0x00ffffff-no-rj",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxG7UdY3xFegM5WTUqifDgvT8DdpDnGndJ5g&usqp=CAU",
   },
 ];
 
@@ -43,10 +43,27 @@ function DragDrop() {
           return <Picture url={picture.url} id={picture.id} />;
         })}
       </div>
+      <div>
+        <table>
+      <tr>
+        <td>
       <div className="Board" ref={drop}>
         {board.map((picture) => {
           return <Picture url={picture.url} id={picture.id} />;
         })}
+       
+      </div>
+      </td>
+      <td>
+      <div className="Board" ref={drop}>
+        {board.map((picture) => {
+          return <Picture url={picture.url} id={picture.id} />;
+        })}
+       
+      </div>
+      </td>
+      </tr>
+      </table>
       </div>
     </>
   );
