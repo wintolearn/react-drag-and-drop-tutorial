@@ -12,7 +12,7 @@ const PictureList = [
   {
     id: 2,
     url:
-      "https://media-exp1.licdn.com/dms/image/C4D03AQExheo0sff_yQ/profile-displayphoto-shrink_200_200/0/1590072898568?e=1630540800&v=beta&t=_W-gWZewSBYQ-UAjpGvR8h_8Vvo202IHQQissbK2aKc",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaDdOBOrpvCKazRG_FKR1F2oYt9aeOPhzJsw&usqp=CAU",
   },
   {
     id: 3,
