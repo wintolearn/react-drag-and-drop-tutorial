@@ -7,17 +7,17 @@ const PictureList = [
   {
     id: 1,
     url:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA5oaUIcAAEZGjYh8mjGlYl5eDY0NH0WJhww&usqp=CAU",
+      "https://pngimg.com/uploads/fish/fish_PNG25118.png",
   },
   {
     id: 2,
     url:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaDdOBOrpvCKazRG_FKR1F2oYt9aeOPhzJsw&usqp=CAU",
+      "https://cdn.pixabay.com/photo/2017/06/06/13/12/isolated-2377242_1280.png",
   },
   {
     id: 3,
     url:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxG7UdY3xFegM5WTUqifDgvT8DdpDnGndJ5g&usqp=CAU",
+      "https://assets.stickpng.com/images/580b57fbd9996e24bc43bbf2.png",
   },
 ];
 
@@ -43,28 +43,14 @@ function DragDrop() {
           return <Picture url={picture.url} id={picture.id} />;
         })}
       </div>
-      <div>
-        <table>
-      <tr>
-        <td>
+  
       <div className="Board" ref={drop}>
         {board.map((picture) => {
           return <Picture url={picture.url} id={picture.id} />;
         })}
        
       </div>
-      </td>
-      <td>
-      <div className="Board" ref={drop}>
-        {board.map((picture) => {
-          return <Picture url={picture.url} id={picture.id} />;
-        })}
-       
-      </div>
-      </td>
-      </tr>
-      </table>
-      </div>
+
     </>
   );
 }
