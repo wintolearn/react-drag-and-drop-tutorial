@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import Picture from "./Picture";
 import { useDrop } from "react-dnd";
+import { TouchBackend } from 'react-dnd-touch-backend'
 import "../App.css";
 
 
